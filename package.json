@@ -2,16 +2,15 @@
   "name": "decorator-demo",
   "scripts": {
     "start": "node server.js",
-    "test:1" : "mocha test/exam1.spec.js --compilers js:babel-register -c || true",
-    "test:2" : "mocha test/exam2.spec.js --compilers js:babel-register -c || true"
+    "test:1": "mocha test/exam1.spec.js --compilers js:babel-register -c || true",
+    "test:2": "mocha test/exam2.spec.js --compilers js:babel-register -c || true"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",
+    "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.0",
     "babel-plugin-transform-decorators-legacy": "^1.2.0",
     "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
     "babel-register": "^6.3.13",
     "chai": "^3.4.1",
     "chance": "^0.8.0",
