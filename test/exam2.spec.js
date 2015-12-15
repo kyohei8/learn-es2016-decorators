@@ -11,7 +11,6 @@ describe('exam2のテスト', () => {
     });
 
     it('newができない', () => {
-      expect(SingleClass).to.be.a('object');
       expect(SingleClass).to.not.be.a('function');
     });
 
